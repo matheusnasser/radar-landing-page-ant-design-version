@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Icon } from 'antd';
 import QueueAnim from 'rc-queue-anim';
 import TweenOne from 'rc-tween-one';
+import { isImg } from './utils';
 
 class Banner extends React.PureComponent {
   render() {
@@ -18,13 +19,12 @@ class Banner extends React.PureComponent {
           {...dataSource.textWrapper}
         >
           <div key="title" {...dataSource.title}>
-            {dataSource.title.children.match(
-              /\.(svg|gif|jpg|jpeg|png|JPG|PNG|GIF|JPEG)$/
-            ) ? (
+            {typeof dataSource.title.children === 'string' &&
+            dataSource.title.children.match(isImg) ? (
               <img src={dataSource.title.children} width="100%" alt="img" />
-              ) : (
-                dataSource.title.children
-              )}
+            ) : (
+              dataSource.title.children
+            )}
           </div>
           <div key="content" {...dataSource.content}>
             {dataSource.content.children}
