@@ -1,11 +1,12 @@
 import React from 'react';
 import radarLogo from '../assets/radar-logo.png';
+import radarMac from  '../assets/mac.png';
 export const Nav00DataSource = {
   wrapper: { className: 'header0 home-page-wrapper' },
   page: { className: 'home-page' },
   logo: {
     className: 'header0-logo',
-    children: 'https://os.alipayobjects.com/rmsportal/mlcYmsRilwraoAe.svg',
+    children: radarMac,
   },
   Menu: {
     className: 'header0-menu',
@@ -98,6 +99,40 @@ export const Nav00DataSource = {
   },
   mobileMenu: { className: 'header0-mobile-menu' },
 };
+export const Banner20DataSource = {
+  wrapper: { className: 'banner2' },
+  BannerAnim: {
+    children: [
+      {
+        name: 'elem0',
+        BannerElement: { className: 'banner-user-elem' },
+        page: { className: 'home-page banner2-page' },
+        textWrapper: { className: 'banner2-text-wrapper' },
+        bg: { className: 'bg bg0' },
+        title: { className: 'banner2-title', children: 'Ant Motion' },
+        content: {
+          className: 'banner2-content',
+          children: '一个高效的页面动画解决方案',
+        },
+        button: { className: 'banner2-button', children: 'Learn More' },
+      },
+    ],
+  },
+};
+export const Banner01DataSource = {
+  wrapper: { className: 'banner0' },
+  textWrapper: { className: 'banner0-text-wrapper k5oaumsb5oe-editor_css' },
+  title: {
+    className: 'banner0-title',
+    children: 'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
+  },
+  content: {
+    className: 'banner0-content',
+    children: '一个高效的页面动画解决方案',
+  },
+  button: { className: 'banner0-button', children: 'Learn More' },
+};
+
 export const Banner00DataSource = {
   wrapper: { className: 'banner0' },
   textWrapper: { className: 'banner0-text-wrapper' },
@@ -107,7 +142,7 @@ export const Banner00DataSource = {
   },
   content: {
     className: 'banner0-content',
-    children: 'A vitrine de preços.',
+    children: '一个高效的页面动画解决方案',
   },
   button: { className: 'banner0-button', children: 'Learn More' },
 };
@@ -228,9 +263,10 @@ export const Content00DataSource = {
 export const Content10DataSource = {
   wrapper: { className: 'home-page-wrapper content1-wrapper' },
   OverPack: { className: 'home-page content1', playScale: 0.3 },
-  imgWrapper: { className: 'content1-img', md: 10, xs: 24 },
+  imgWrapper: { className: 'content1-img', md: 24, xs: 24   },
   img: {
-    children: radarLogo,
+    children: radarMac,
+    className: 'radar-mac'
   },
   textWrapper: { className: 'content1-text', md: 14, xs: 24 },
   title: { className: 'content1-title', children: '企业资源管理' },
@@ -392,7 +428,7 @@ export const Footer00DataSource = {
     className: 'copyright',
     children: (
         <span>
-          ©2018 <a href="https://motion.ant.design">Ant Motion</a> All Rights
+          ©2020 <a>BKPI</a> All Rights
           Reserved
         </span>
     ),
