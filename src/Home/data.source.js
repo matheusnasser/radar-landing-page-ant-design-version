@@ -1,5 +1,5 @@
 import React from 'react';
-
+import logo from '../assets/radar-logo.png';
 export const Nav00DataSource = {
   wrapper: { className: 'header0 home-page-wrapper' },
   page: { className: 'home-page' },
@@ -10,7 +10,7 @@ export const Nav00DataSource = {
   Menu: {
     className: 'header0-menu',
     children: [
-      { name: 'item0', a: { children: '导航一', href: '' } },
+      { name: 'item0', a: { children: '导航一', href: '#Content7_0' } },
       { name: 'item1', a: { children: '导航二', href: '' } },
       { name: 'item2', a: { children: '导航三', href: '' } },
       { name: 'item3', a: { children: '导航四', href: '' } },
@@ -23,14 +23,14 @@ export const Banner00DataSource = {
   textWrapper: { className: 'banner0-text-wrapper' },
   title: {
     className: 'banner0-title',
-    children: 'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
+    children: logo,
   },
   content: {
     className: 'banner0-content',
     children: (
       <span>
-        <p>dsdf</p>
-        <p>aaaaa</p>
+        <p>Radar</p>
+        <p>Conectando você a melhores ofertas do mercado.</p>
       </span>
     ),
   },
