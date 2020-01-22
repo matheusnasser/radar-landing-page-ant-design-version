@@ -1,12 +1,14 @@
 import React from 'react';
-import radarLogo from '../assets/radar-logo.png';
+import radarLogo from "../assets/sonarbackground.png";
 import radarMac from  '../assets/mac.png';
+const radarLogoHeader = require("../assets/radar-logo.png")
+
 export const Nav00DataSource = {
   wrapper: { className: 'header0 home-page-wrapper' },
   page: { className: 'home-page' },
   logo: {
     className: 'header0-logo',
-    children: radarMac,
+    children: radarLogoHeader,
   },
   Menu: {
     className: 'header0-menu',
@@ -99,50 +101,18 @@ export const Nav00DataSource = {
   },
   mobileMenu: { className: 'header0-mobile-menu' },
 };
-export const Banner20DataSource = {
-  wrapper: { className: 'banner2' },
-  BannerAnim: {
-    children: [
-      {
-        name: 'elem0',
-        BannerElement: { className: 'banner-user-elem' },
-        page: { className: 'home-page banner2-page' },
-        textWrapper: { className: 'banner2-text-wrapper' },
-        bg: { className: 'bg bg0' },
-        title: { className: 'banner2-title', children: 'Ant Motion' },
-        content: {
-          className: 'banner2-content',
-          children: '一个高效的页面动画解决方案',
-        },
-        button: { className: 'banner2-button', children: 'Learn More' },
-      },
-    ],
-  },
-};
-export const Banner01DataSource = {
-  wrapper: { className: 'banner0' },
-  textWrapper: { className: 'banner0-text-wrapper k5oaumsb5oe-editor_css' },
-  title: {
-    className: 'banner0-title',
-    children: 'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
-  },
-  content: {
-    className: 'banner0-content',
-    children: '一个高效的页面动画解决方案',
-  },
-  button: { className: 'banner0-button', children: 'Learn More' },
-};
+
 
 export const Banner00DataSource = {
   wrapper: { className: 'banner0' },
   textWrapper: { className: 'banner0-text-wrapper' },
   title: {
     className: 'banner0-title',
-    children: 'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
+    children: "https://i.ibb.co/SDSc9Bf/radar-logo.png",
   },
   content: {
     className: 'banner0-content',
-    children: '一个高效的页面动画解决方案',
+    children: null,
   },
   button: { className: 'banner0-button', children: 'Learn More' },
 };
@@ -231,32 +201,6 @@ export const Content00DataSource = {
           ],
         },
       },
-      {
-        name: 'block3',
-        className: 'content0-block',
-        md: 8,
-        xs: 24,
-        children: {
-          className: 'content0-block-item',
-          children: [
-            {
-              name: 'image',
-              className: 'content0-block-icon',
-              children:
-                'https://i.ibb.co/PrJV06H/PRODUTOR-RURAL.png',
-            },
-            {
-              name: 'title',
-              className: 'content0-block-title',
-              children: 'Indústria',
-            },
-            {
-              name: 'content',
-              children: 'Publique seus produtos online na plataforma e alcance milhares de compradores no Brasil e no mundo. Além disso, poderá visualizar ofertas de várias regiões e fazer conexão com novas pessoas.',
-            },
-          ],
-        },
-      },
     ],
   },
 };
@@ -285,7 +229,7 @@ export const Content30DataSource = {
     children: [
       {
         name: 'title',
-        children: '蚂蚁金融云提供专业的服务',
+        children: 'Conheça os Benefícios',
         className: 'title-h1',
       },
       {
