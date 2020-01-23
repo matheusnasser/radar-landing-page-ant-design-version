@@ -1,6 +1,23 @@
 import React from 'react';
+
 import radarMac from  '../assets/mac.png';
 import radarSonar from  '../assets/sonarbackground.png';
+import radarLogo from "../assets/radar-logo.png";
+
+
+import produtor from  '../assets/produtor-rural.png';
+import cooperativa from "../assets/COOPERATIVA.png";
+import corretora from "../assets/CORRETORA.png"
+
+
+import info from "../assets/info.png";
+import conexao from "../assets/conexao.png";
+import globe from "../assets/globe.svg";
+import opportunities from "../assets/info.png";
+import agreement from "../assets/agreement.png";
+import stock from "../assets/stock.svg";
+
+
 
 export const Nav00DataSource = {
   wrapper: { className: 'header0 home-page-wrapper' },
@@ -64,7 +81,9 @@ export const Banner00DataSource = {
   textWrapper: { className: 'banner0-text-wrapper' },
   title: {
     className: 'banner0-title',
-    children: "https://i.ibb.co/SDSc9Bf/radar-logo.png",
+    children: (
+      <img src={radarLogo} className="radarLogoHeader"></img>
+    ),
   },
   content: {
     className: 'banner0-content',
@@ -95,7 +114,9 @@ export const Content00DataSource = {
             {
               name: 'image',
               className: 'content0-block-icon',
-              children: 'https://i.ibb.co/PrJV06H/PRODUTOR-RURAL.png'
+              children: (
+                <img src={produtor}></img>
+              ),
             },
             {
               name: 'title',
@@ -117,8 +138,9 @@ export const Content00DataSource = {
             {
               name: 'image',
               className: 'content0-block-icon',
-              children:
-                'https://i.ibb.co/PrJV06H/PRODUTOR-RURAL.png',
+              children: (
+                <img src={corretora}></img>
+              ),
             },
             {
               name: 'title',
@@ -143,8 +165,9 @@ export const Content00DataSource = {
             {
               name: 'image',
               className: 'content0-block-icon',
-              children:
-                'https://i.ibb.co/PrJV06H/PRODUTOR-RURAL.png',
+              children: (
+                <img src={cooperativa}></img>
+              ),
             },
             {
               name: 'title',
@@ -194,7 +217,7 @@ export const Content30DataSource = {
       {
         name: 'content',
         className: 'title-content',
-        children: 'Que o radar oferece',
+        children: null,
       },
     ],
   },
@@ -210,14 +233,14 @@ export const Content30DataSource = {
           icon: {
             className: 'content3-icon',
             children:
-              'https://image.flaticon.com/icons/svg/1152/1152946.svg',
+              opportunities,
           },
           textWrapper: { className: 'content3-text' },
           title: { className: 'content3-title', children: 'Oportunidades' },
           content: {
             className: 'content3-content',
             children:
-              'Dentro do radar você terá acesso a diversas oportunidades de negócios relacionadas a produtos e insumos de seu interesse.',
+              'Através da plataforma você terá acesso a diversas oportunidades de negócios relacionadas a produtos e insumos de seu interesse.',
           },
         },
       },
@@ -230,14 +253,14 @@ export const Content30DataSource = {
           icon: {
             className: 'content3-icon',
             children:
-              'https://image.flaticon.com/icons/svg/814/814587.svg',
+              globe,
           },
           textWrapper: { className: 'content3-text' },
           title: { className: 'content3-title', children: 'Mapa Interativo' },
           content: {
             className: 'content3-content',
             children:
-              "O radar contém também com um mapa onde apresenta oportunidades.",
+              "Contempla na plataforma um mapa interativo, por meio dele se obtém a localização de cada oportunidade, e de várias outras variáveis geolocalizadas.",
           },
         },
       },
@@ -250,7 +273,7 @@ export const Content30DataSource = {
           icon: {
             className: 'content3-icon',
             children:
-              'https://cdn.icon-icons.com/icons2/1387/PNG/512/distributedcloudblockchaintechnologynetworkconnection_95916.png',
+              conexao,
           },
           textWrapper: { className: 'content3-text' },
           title: { className: 'content3-title', children: 'Interação' },
@@ -270,7 +293,7 @@ export const Content30DataSource = {
           icon: {
             className: 'content3-icon',
             children:
-              'https://cdn.icon-icons.com/icons2/1765/PNG/512/hand-outline-gesture-3_113964.png',
+              agreement,
           },
           textWrapper: { className: 'content3-text' },
           title: { className: 'content3-title', children: 'Agilidade' },
@@ -290,7 +313,7 @@ export const Content30DataSource = {
           icon: {
             className: 'content3-icon',
             children:
-              'https://image.flaticon.com/icons/svg/1743/1743002.svg',
+              stock,
           },
           textWrapper: { className: 'content3-text' },
           title: { className: 'content3-title', children: 'Acompanhamento' },
@@ -310,7 +333,7 @@ export const Content30DataSource = {
           icon: {
             className: 'content3-icon',
             children:
-              'https://cdn.icon-icons.com/icons2/1812/PNG/512/4213426-about-description-help-info-information-notification_115427.png',
+              info,
           },
           textWrapper: { className: 'content3-text' },
           title: { className: 'content3-title', children: 'Informações' },
