@@ -1,14 +1,13 @@
 import React from 'react';
 import radarMac from  '../assets/mac.png';
 import radarSonar from  '../assets/sonarbackground.png';
-const radarLogoHeader = require("../assets/radar-logo.png")
 
 export const Nav00DataSource = {
   wrapper: { className: 'header0 home-page-wrapper' },
   page: { className: 'home-page' },
   logo: {
     className: 'header0-logo',
-    children: radarLogoHeader,
+    children: null,
   },
   Menu: {
     className: 'header0-menu',
@@ -63,7 +62,7 @@ export const Banner00DataSource = {
     className: 'banner0-content',
     children: null,
   },
-  button: { className: 'banner0-button', children: 'Learn More' },
+  button: { className: 'banner0-button', children: 'Cadastre-se agora', href: "http://radaragro.io/" },
 };
 export const Content00DataSource = {
   wrapper: { className: 'home-page-wrapper content0-wrapper' },
@@ -156,19 +155,21 @@ export const Content00DataSource = {
 export const Content10DataSource = {
   wrapper: { className: 'home-page-wrapper content1-wrapper' },
   OverPack: { className: 'home-page content1', playScale: 0.3 },
-  imgWrapper: { className: 'content1-img', md: 24, xs: 24   },
+  imgWrapper: { className: 'content1-img', md: 10, xs: 24   },
   img: {
     children: radarMac,
     className: 'radar-mac'
   },
-  textWrapper: { className: 'content1-text', md: 14, xs: 0 },
-  title: { className: 'content1-title', children: null },
+  textWrapper: { className: 'content1-text', md: 14, xs: 24 },
+  title: { className: 'content1-title', children: null, },
   content: {
     className: 'content1-content',
     children:
-      null,
+    "Chegou a plataforma que irá revolucionar a comercialização agrícola brasileira e mundial. Através do ambiente disponibilizado na plataforma vendedores e compradores se conectam para realizarem negócios. Comece agora a visualizar todas as oportunidades na vitrine de preços Radar.",
   },
 };
+
+
 export const Content30DataSource = {
   wrapper: { className: 'home-page-wrapper content3-wrapper' },
   page: { className: 'home-page content3' },
