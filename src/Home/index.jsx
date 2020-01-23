@@ -9,6 +9,7 @@ import Content0 from './Content0';
 import Content1 from './Content1';
 import Content3 from './Content3';
 import Footer0 from './Footer0';
+import Feature2 from './Feature2';
 
 import {
   Nav00DataSource,
@@ -17,6 +18,7 @@ import {
   Content10DataSource,
   Content30DataSource,
   Footer00DataSource,
+  Feature20DataSource,
 } from './data.source';
 import './less/antMotionStyle.less';
 
@@ -84,6 +86,12 @@ export default class Home extends React.Component {
         id="Content3_0"
         key="Content3_0"
         dataSource={Content30DataSource}
+        isMobile={this.state.isMobile}
+      />,
+      <Feature2
+        id="Feature2_0"
+        key="Feature2_0"
+        dataSource={Feature20DataSource}
         isMobile={this.state.isMobile}
       />,
       <Footer0

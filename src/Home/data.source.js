@@ -1,6 +1,7 @@
 import React from 'react';
 import radarLogo from "../assets/sonarbackground.png";
 import radarMac from  '../assets/mac.png';
+import radarSonar from  '../assets/sonarbackground.png';
 const radarLogoHeader = require("../assets/radar-logo.png")
 
 export const Nav00DataSource = {
@@ -212,12 +213,12 @@ export const Content10DataSource = {
     children: radarMac,
     className: 'radar-mac'
   },
-  textWrapper: { className: 'content1-text', md: 14, xs: 24 },
-  title: { className: 'content1-title', children: '企业资源管理' },
+  textWrapper: { className: 'content1-text', md: 14, xs: 0 },
+  title: { className: 'content1-title', children: null },
   content: {
     className: 'content1-content',
     children:
-      '云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。',
+      null,
   },
 };
 export const Content30DataSource = {
@@ -235,7 +236,7 @@ export const Content30DataSource = {
       {
         name: 'content',
         className: 'title-content',
-        children: '基于阿里云强大的基础资源',
+        children: 'Que o radar oferece',
       },
     ],
   },
@@ -251,14 +252,14 @@ export const Content30DataSource = {
           icon: {
             className: 'content3-icon',
             children:
-              'https://zos.alipayobjects.com/rmsportal/ScHBSdwpTkAHZkJ.png',
+              'https://image.flaticon.com/icons/svg/1152/1152946.svg',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '企业资源管理' },
+          title: { className: 'content3-title', children: 'Oportunidades' },
           content: {
             className: 'content3-content',
             children:
-              '云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。',
+              'Dentro do radar você terá acesso a diversas oportunidades de negócios relacionadas a produtos e insumos de seu interesse.',
           },
         },
       },
@@ -271,14 +272,14 @@ export const Content30DataSource = {
           icon: {
             className: 'content3-icon',
             children:
-              'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png',
+              'https://image.flaticon.com/icons/svg/814/814587.svg',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '云安全' },
+          title: { className: 'content3-title', children: 'Mapa Interativo' },
           content: {
             className: 'content3-content',
             children:
-              '按金融企业安全要求打造的完整云上安全体系，全方位保障金融应用及数据安全。',
+              "O radar contém também com um mapa onde apresenta oportunidades.",
           },
         },
       },
@@ -291,14 +292,14 @@ export const Content30DataSource = {
           icon: {
             className: 'content3-icon',
             children:
-              'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png',
+              'https://cdn.icon-icons.com/icons2/1387/PNG/512/distributedcloudblockchaintechnologynetworkconnection_95916.png',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '云监控' },
+          title: { className: 'content3-title', children: 'Interação' },
           content: {
             className: 'content3-content',
             children:
-              '分布式云环境集中监控，统一资源及应用状态视图，智能分析及故障定位。',
+              'É possível também dentro do radar interagir com outros usuários, tanto de cooperativas, corretoras e indústrias, gerando assim uma ampla conexão entre usuários e oportunidades.',
           },
         },
       },
@@ -311,14 +312,14 @@ export const Content30DataSource = {
           icon: {
             className: 'content3-icon',
             children:
-              'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
+              'https://cdn.icon-icons.com/icons2/1765/PNG/512/hand-outline-gesture-3_113964.png',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '移动' },
+          title: { className: 'content3-title', children: 'Agilidade' },
           content: {
             className: 'content3-content',
             children:
-              '一站式移动金融APP开发及全面监控；丰富可用组件，动态发布和故障热修复。',
+              'Com o radar você poderá entrar em contato com oportunidades de forma rápida, fácil e segura tudo a partir de conxão a internet e um computador.',
           },
         },
       },
@@ -331,14 +332,14 @@ export const Content30DataSource = {
           icon: {
             className: 'content3-icon',
             children:
-              'https://zos.alipayobjects.com/rmsportal/UsUmoBRyLvkIQeO.png',
+              'https://image.flaticon.com/icons/svg/1743/1743002.svg',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '分布式中间件' },
+          title: { className: 'content3-title', children: 'Acompanhamento' },
           content: {
             className: 'content3-content',
             children:
-              '金融级联机交易处理中间件，大规模分布式计算机，数万笔/秒级并发能力，严格保证交易数据统一性。',
+              'Acompanhe o histórico de oportunidades e preço de insumos de sua região dia após dia.',
           },
         },
       },
@@ -351,18 +352,35 @@ export const Content30DataSource = {
           icon: {
             className: 'content3-icon',
             children:
-              'https://zos.alipayobjects.com/rmsportal/ipwaQLBLflRfUrg.png',
+              'https://cdn.icon-icons.com/icons2/1812/PNG/512/4213426-about-description-help-info-information-notification_115427.png',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '大数据' },
+          title: { className: 'content3-title', children: 'Informações' },
           content: {
             className: 'content3-content',
             children:
-              '一站式、全周期大数据协同工作平台，PB级数据处理、毫秒级数据分析工具。',
+              'No radar vai ser possível também ter acesso a informações em tempo real sobre esmagadoras e cotações do mercado atual.',
           },
         },
       },
     ],
+  },
+};
+export const Feature20DataSource = {
+  wrapper: { className: 'home-page-wrapper content2-wrapper' },
+  OverPack: { className: 'home-page content2', playScale: 0.3 },
+  imgWrapper: { className: 'content2-img', md: 10, xs: 24 },
+  img: {
+    children: radarSonar,
+    className: 'image-contato'
+  },
+  textWrapper: { className: 'content2-text', md: 14, xs: 24 },
+  title: { className: 'content2-title', children: 'Entre em contato.' },
+  content: {
+    className: 'content2-content',
+    children: (
+      <span>Caso tenha alguma dúvida entre em contato no email <strong>contatoradar@radar.io</strong></span>
+    ),
   },
 };
 export const Footer00DataSource = {
