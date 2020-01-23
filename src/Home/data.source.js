@@ -1,5 +1,4 @@
 import React from 'react';
-import radarLogo from "../assets/sonarbackground.png";
 import radarMac from  '../assets/mac.png';
 import radarSonar from  '../assets/sonarbackground.png';
 const radarLogoHeader = require("../assets/radar-logo.png")
@@ -18,84 +17,33 @@ export const Nav00DataSource = {
         name: 'item0',
         className: 'header0-item',
         children: {
-          href: '#',
-          children: [{ children: '导航一', name: 'text' }],
+          href: '#Banner0_0',
+          children: [{ children: 'Home', name: 'text' }],
         },
-        subItem: [
-          {
-            name: 'sub0',
-            className: 'item-sub',
-            children: {
-              className: 'item-sub-item',
-              children: [
-                {
-                  name: 'image0',
-                  className: 'item-image',
-                  children:
-                    'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
-                },
-                {
-                  name: 'title',
-                  className: 'item-title',
-                  children: 'Ant Design',
-                },
-                {
-                  name: 'content',
-                  className: 'item-content',
-                  children: '企业级 UI 设计体系',
-                },
-              ],
-            },
-          },
-          {
-            name: 'sub1',
-            className: 'item-sub',
-            children: {
-              className: 'item-sub-item',
-              children: [
-                {
-                  name: 'image0',
-                  className: 'item-image',
-                  children:
-                    'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
-                },
-                {
-                  name: 'title',
-                  className: 'item-title',
-                  children: 'Ant Design',
-                },
-                {
-                  name: 'content',
-                  className: 'item-content',
-                  children: '企业级 UI 设计体系',
-                },
-              ],
-            },
-          },
-        ],
+        
       },
       {
         name: 'item1',
         className: 'header0-item',
         children: {
-          href: '#',
-          children: [{ children: '导航二', name: 'text' }],
+          href: '#Content0_0',
+          children: [{ children: 'Usuários', name: 'text' }],
         },
       },
       {
         name: 'item2',
         className: 'header0-item',
         children: {
-          href: '#',
-          children: [{ children: '导航三', name: 'text' }],
+          href: '#Content3_0',
+          children: [{ children: 'Benefícios', name: 'text' }],
         },
       },
       {
         name: 'item3',
         className: 'header0-item',
         children: {
-          href: '#',
-          children: [{ children: '导航四', name: 'text' }],
+          href: '#Feature2_0',
+          children: [{ children: 'Contato', name: 'text' }],
         },
       },
     ],
