@@ -32,6 +32,9 @@ class Banner extends React.PureComponent {
           <Button ghost key="button" {...dataSource.button}>
             {dataSource.button.children}
           </Button>
+          <Button ghost key="button" {...dataSource.buttonSign}>
+            {dataSource.buttonSign.children}
+          </Button>
         </QueueAnim>
         <TweenOne
           animation={{

@@ -7,7 +7,7 @@ export const Nav00DataSource = {
   page: { className: 'home-page' },
   logo: {
     className: 'header0-logo',
-    children: null,
+    children: null
   },
   Menu: {
     className: 'header0-menu',
@@ -16,7 +16,7 @@ export const Nav00DataSource = {
         name: 'item0',
         className: 'header0-item',
         children: {
-          href: '#Banner0_0',
+          href: '#Nav0_0',
           children: [{ children: 'Home', name: 'text' }],
         },
         
@@ -26,7 +26,7 @@ export const Nav00DataSource = {
         className: 'header0-item',
         children: {
           href: '#Content0_0',
-          children: [{ children: 'Usuários', name: 'text' }],
+          children: [{ children: 'Perfis', name: 'text' }],
         },
       },
       {
@@ -43,6 +43,14 @@ export const Nav00DataSource = {
         children: {
           href: '#Feature2_0',
           children: [{ children: 'Contato', name: 'text' }],
+        },
+      },
+      {
+        name: 'item4',
+        className: 'header0-item',
+        children: {
+          href: "#Content1_0",
+          children: [{ children: 'Plataforma', name: 'text' }],
         },
       },
     ],
@@ -62,7 +70,8 @@ export const Banner00DataSource = {
     className: 'banner0-content',
     children: null,
   },
-  button: { className: 'banner0-button', children: 'Cadastre-se agora', href: "http://radaragro.io/" },
+  button: { className: 'banner0-button', children: 'Cadastre-se agora!', href: "http://radaragro.io/" },
+  buttonSign: { className: 'banner0-button', children: 'Entrar na plataforma!', href: "http://radaragro.io/" },
 };
 export const Content00DataSource = {
   wrapper: { className: 'home-page-wrapper content0-wrapper' },
