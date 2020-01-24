@@ -13,7 +13,7 @@ import corretora from "../assets/CORRETORA.png"
 import info from "../assets/info.png";
 import conexao from "../assets/conexao.png";
 import globe from "../assets/globe.svg";
-import opportunities from "../assets/info.png";
+import opportunities from "../assets/opportunities.svg";
 import agreement from "../assets/agreement.png";
 import stock from "../assets/stock.svg";
 
@@ -42,32 +42,32 @@ export const Nav00DataSource = {
         name: 'item1',
         className: 'header0-item',
         children: {
-          href: '#Content0_0',
-          children: [{ children: 'Perfis', name: 'text' }],
+          href: '#Content1_0',
+          children: [{ children: 'Plataforma', name: 'text' }],
         },
       },
       {
         name: 'item2',
         className: 'header0-item',
         children: {
-          href: '#Content3_0',
-          children: [{ children: 'Benefícios', name: 'text' }],
+          href: '#Content0_0',
+          children: [{ children: 'Perfis', name: 'text' }],
         },
       },
       {
         name: 'item3',
         className: 'header0-item',
         children: {
-          href: '#Feature2_0',
-          children: [{ children: 'Contato', name: 'text' }],
+          href: '#Content3_0',
+          children: [{ children: 'Beneficios', name: 'text' }],
         },
       },
       {
         name: 'item4',
         className: 'header0-item',
         children: {
-          href: "#Content1_0",
-          children: [{ children: 'Plataforma', name: 'text' }],
+          href: "#Feature2_0",
+          children: [{ children: 'Contato', name: 'text' }],
         },
       },
     ],
@@ -75,7 +75,7 @@ export const Nav00DataSource = {
   mobileMenu: { className: 'header0-mobile-menu' },
 };
 
-
+// #Content1_0
 export const Banner00DataSource = {
   wrapper: { className: 'banner0' },
   textWrapper: { className: 'banner0-text-wrapper' },
@@ -280,7 +280,7 @@ export const Content30DataSource = {
           content: {
             className: 'content3-content',
             children:
-              'É possível também dentro do radar interagir com outros usuários, tanto de cooperativas, corretoras e indústrias, gerando assim uma ampla conexão entre usuários e oportunidades.',
+              'É possível a interação entre os usuários, para ampliar os contatos e gerar ainda mais oportunidades de negócios.',
           },
         },
       },
@@ -300,7 +300,7 @@ export const Content30DataSource = {
           content: {
             className: 'content3-content',
             children:
-              'Com o radar você poderá entrar em contato com oportunidades de forma rápida, fácil e segura tudo a partir de conxão a internet e um computador.',
+              'Em poucos cliques e sem nenhuma complicação você entrará em contato com oportunidades de diversas regiões, de forma rápida, fácil e segura.',
           },
         },
       },
@@ -320,7 +320,7 @@ export const Content30DataSource = {
           content: {
             className: 'content3-content',
             children:
-              'Acompanhe o histórico de oportunidades e preço de insumos de sua região dia após dia.',
+              'Acompanhe as oportunidades e o preço de commodities agrícolas dia após dia.',
           },
         },
       },
@@ -340,7 +340,7 @@ export const Content30DataSource = {
           content: {
             className: 'content3-content',
             children:
-              'No radar vai ser possível também ter acesso a informações em tempo real sobre esmagadoras e cotações do mercado atual.',
+              'Visando a praticidade e rapidez o Radar une em uma única plataforma as informações do seu interesse, que irão alavancar seus negócios.',
           },
         },
       },
@@ -360,9 +360,11 @@ export const Feature20DataSource = {
   content: {
     className: 'content2-content',
     children: (
-      <span>Caso tenha alguma dúvida entre em contato no email <strong>contatoradar@radar.io</strong></span>
+      <span>Entre em contato com a nossa equipe, estamos a disposição para lhe atender. <br></br><strong>Email: contatoradar@radar.io</strong><br></br><strong>Tel: (34) 9 9910-2608 </strong></span>
     ),
   },
+  
+
 };
 export const Footer00DataSource = {
   wrapper: { className: 'home-page-wrapper footer0-wrapper' },
