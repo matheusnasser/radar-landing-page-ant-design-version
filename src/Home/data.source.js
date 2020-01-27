@@ -4,6 +4,7 @@ import radarMac from  '../assets/mac.png';
 import radarSonar from  '../assets/sonarbackground.png';
 import radarLogo from "../assets/radar-logo.png";
 
+import radarLogoHeader from '../assets/exportLogoHeader.png';
 
 import produtor from  '../assets/produtor-rural.png';
 import cooperativa from "../assets/COOPERATIVA.png";
@@ -24,7 +25,7 @@ export const Nav00DataSource = {
   page: { className: 'home-page' },
   logo: {
     className: 'header0-logo',
-    children: null
+    children: radarLogoHeader,
   },
   Menu: {
     className: 'header0-menu',
